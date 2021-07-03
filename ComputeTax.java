@@ -10,9 +10,6 @@ public class ComputeTax{
 		int status = input.nextInt();
 
 		System.out.print(status);
-		System.out.print(status);
-		System.out.print(status);
-		System.out.print(status);
 
 		input.close();
 	}
