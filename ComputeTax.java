@@ -8,9 +8,11 @@ public class ComputeTax{
 			"separately, 3 - head of household)");
 		System.out.print("Enter filing status: ");
 		int status = input.nextInt();
+		System.out.print("Enter taxable income: ");
+		double income = input.nextDouble();
 
 		System.out.print(status);
-		//this will work
+		//This is a test
 
 		input.close();
 	}
