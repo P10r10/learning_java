@@ -31,12 +31,12 @@ public class ComputeTax{
 					(171550 - 82250) * 0.28 + (372950 - 171550) * 0.33 + (income - 372950) * 0.35;
 				break;
 			}
-			case 1:
-			case 2:
-			case 3:
+			case 1://develop
+			case 2://develop
+			case 3://develop
 		}
 
-		System.out.print(tax);
+		System.out.println(tax);
 
 		input.close();
 	}
