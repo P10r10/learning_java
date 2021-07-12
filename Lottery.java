@@ -4,12 +4,14 @@ public class Lottery{
 	public static void main(String[] args){
 		Scanner input = new Scanner(System.in);
 
-		System.out.print("Enter your lottery pick (two digits): ");
+		System.out.print("Enter your lottery pick (three digits): ");
 		int userPick = input.nextInt();
-		int tensDigit = userPick / 10;
+		int hundredsDigit = userPick / 100;
+		int tensDigit = (userPick - hundredsDigit * 100) / 10;
 		int unitsDigit = userPick % 10;
-		int appPick = (int)(Math.random() * 100);
-		int appTensDigit = appPick / 10;
+		int appPick = (int)(Math.random() * 1000);
+		int appHundredsDigit = appPick / 100;
+		int appTensDigit = (appPick - appHundredsDigit * 100) / 10;
 		int appUnitsDigit = appPick % 10;
 
 		System.out.println("The lottery number is " + appPick);
