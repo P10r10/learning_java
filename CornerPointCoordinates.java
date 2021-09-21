@@ -10,23 +10,23 @@ public class CornerPointCoordinates{
 		double step = Math.PI * 2 / 5;
 		double x = r * Math.cos(angle);
 		double y = r * Math.sin(angle);
-		System.out.printf("(%.4f, %.4f\n", x, y);
+		System.out.printf("(%.4f, %.4f)\n", x, y);
 		angle -= step;
 		x = r * Math.cos(angle);
 		y = r * Math.sin(angle);
-		System.out.printf("(%.4f, %.4f\n", x, y);
+		System.out.printf("(%.4f, %.4f)\n", x, y);
 		angle -= step;
 		x = r * Math.cos(angle);
 		y = r * Math.sin(angle);
-		System.out.printf("(%.4f, %.4f\n", x, y);
+		System.out.printf("(%.4f, %.4f)\n", x, y);
 		angle -= step;
 		x = r * Math.cos(angle);
 		y = r * Math.sin(angle);
-		System.out.printf("(%.4f, %.4f\n", x, y);
+		System.out.printf("(%.4f, %.4f)\n", x, y);
 		angle -= step;
 		x = r * Math.cos(angle);
 		y = r * Math.sin(angle);
-		System.out.printf("(%.4f, %.4f\n", x, y);
+		System.out.printf("(%.4f, %.4f)\n", x, y);
 		input.close();
 	}
 }
