@@ -27,5 +27,6 @@ public class CornerPointCoordinates{
 		x = r * Math.cos(angle);
 		y = r * Math.sin(angle);
 		System.out.printf("(%.4f, %.4f\n", x, y);
+		input.close();
 	}
 }
